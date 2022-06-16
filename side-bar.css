@@ -1,0 +1,32 @@
+.sidebar {
+    width: 75px;
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    
+}
+/*  with flex-direction: column;  = sidebar on top of eachother
+    without flex-direction: column;  = sidebar on the same line  */
+
+
+.side-bar {
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.side-bar img {
+    height: 28px;
+}
+
+.side-bar p {
+    font-size: 10px;
+}
+
+.side-bar:hover {
+    background-color: lightgray;
+}

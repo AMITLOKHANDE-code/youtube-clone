@@ -1,0 +1,131 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    flex: 1;
+    height: 56px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+
+
+
+.left-section {
+    display: flex;
+    align-items:center;
+}
+
+.hamburger {
+    height: 24px;
+    margin-left:25px;
+    margin-right:24px;
+}
+
+.yt-logo {
+    height: 20px;
+}
+
+
+
+
+/*   middle section    */
+
+
+
+.middle-section {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search {
+    margin-left:50px;
+    padding-left: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 2px;
+    flex: 1;
+    height: 35px;
+    width:0;
+    max-width: 470px;
+}
+
+
+.input-search::placeholder {
+    font-family: Arial;    
+    font-size: 16px;
+}
+
+.search-button {
+    width: 66px;
+    height: 39px;
+    margin-left: -1px ;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-right: 10px;
+}
+
+.voice-search-button {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 22.5px;
+    background-color: rgb(251, 251, 251);
+    margin-right: 20px;
+}
+
+.search-img {
+    width: 28px;
+}
+
+
+.voice-img {
+    width: 22px;
+}
+
+
+
+
+
+
+/*    right section    */
+
+
+
+
+.right-section {
+
+    width: 226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink:0;
+
+}
+
+.upload ,
+.yt-apps,
+.notifications {
+    height: 24px;
+}
+
+
+
+.myprofile {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 25px;
+}

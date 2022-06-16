@@ -1,0 +1,62 @@
+.thumbnails {
+    position: relative;
+}
+
+
+.timeline {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+
+.timeline p {
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+}
+
+
+
+
+                            /*  this is header   */
+
+
+
+.search-button ,
+.voice-search-button ,
+.right-sec {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.hello {
+    position: absolute;
+    bottom: -40px;
+    pointer-events: none;
+    white-space: nowrap;
+    
+}
+
+.hello p {
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 1px;
+    opacity: 0;
+    transition: 0.15s;
+
+}
+
+.search-button:hover p , .voice-search-button:hover p ,
+.right-sec:hover p
+ {
+    opacity: 1;
+    flex-wrap:nowrap;
+}
